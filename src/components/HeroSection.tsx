@@ -74,7 +74,7 @@ const HeroSection = () => {
               <div className="absolute inset-0 portfolio-gradient rounded-2xl transform rotate-6"></div>
               <div className="relative bg-background rounded-2xl p-2 transform -rotate-3 hover:rotate-0 transition-transform duration-300">
                 <img
-                  src="/public/Me.jpeg"
+                  src="public/Me.jpeg"
                   alt="Vamshidhar Reddy Ankenapalle - Full-Stack Python Developer"
                   className="w-full h-[600px] object-cover rounded-2xl shadow-2xl"
                 />
