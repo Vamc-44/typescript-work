@@ -29,7 +29,7 @@ const ContactSection = () => {
     setSuccess(false);
 
     try {
-      const response = await fetch("https://script.google.com/macros/s/AKfycby_PEOBOBHkHi0ium8q3QYijhOrcx0LW7yFGPjPdYCsDAHlAcOGaq02VmI8Jsahb5gd/exec", {
+      const response = await fetch("https://formspree.io/f/xovwweoq", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
@@ -102,7 +102,7 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <p className="text-foreground font-medium">Location</p>
-                  <p className="text-muted-foreground">Texas</p>
+                  <p className="text-muted-foreground">United States</p>
                 </div>
               </div>
             </div>

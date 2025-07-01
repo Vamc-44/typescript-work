@@ -22,18 +22,18 @@ const HeroSection = () => {
               </div>
               
               <p className="text-lg text-muted-foreground max-w-lg">
-                Seasoned Full Stack Developer with 8+ years of experience designing, developing, and maintaining scalable web applications and secure backend systems across diverse domains including healthcare, retail, and enterprise platforms. Proficient in both Java (Spring) and Python (Django, Flask) ecosystems, with hands-on expertise in building RESTful APIs, cloud-native platforms, and dynamic frontends using React, AngularJS, and Redux.
+                Seasoned Full Stack Developer with 8+ years of experience designing, developing, and maintaining scalable web applications and secure backend systems across diverse domains including healthcare, retail, and enterprise platforms. Proficient in Python (Django, Flask) ecosystems, with hands-on expertise in building RESTful APIs, cloud-native platforms, and dynamic frontends using React, Angular, and Redux.
              </p>
               
               <div className="flex flex-wrap gap-4">
-                <a href="mailto:vamshidharr.2457@gmail.com">
+                <a href="mailto:vamshidharr2457@gmail.com">
                 <Button size="lg" className="portfolio-gradient text-white hover:opacity-90 transition-opacity">
                 <Mail className="w-4 h-4 mr-2" />
                 Get In Touch
                 </Button>
                 </a>
 
-                <a href="/public/VamshidharReddy.pdf" download>
+                <a href="/VamshidharReddy.docx" download>
                 <Button variant="outline" size="lg">
                 <Download className="w-4 h-4 mr-2" />
                 Download CV
@@ -74,7 +74,7 @@ const HeroSection = () => {
               <div className="absolute inset-0 portfolio-gradient rounded-2xl transform rotate-6"></div>
               <div className="relative bg-background rounded-2xl p-2 transform -rotate-3 hover:rotate-0 transition-transform duration-300">
                 <img
-                  src="public/Me.jpeg"
+                  src="/Me.jpeg"
                   alt="Vamshidhar Reddy Ankenapalle - Full-Stack Python Developer"
                   className="w-full h-[600px] object-cover rounded-2xl shadow-2xl"
                 />

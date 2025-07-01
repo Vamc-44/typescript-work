@@ -19,8 +19,8 @@ const ExperienceSection = () => {
     },
     {
       title: 'Full-Stack Developer',
-      company: 'First Databank, Inc. (FDB)',
-      location: 'San Francisco, CA',
+      company: 'Equinix',
+      location: 'Frisco, TX',
       period: 'Feb 2021 - June 2023'/* ,
       location: 'Remote',
       period: '2020 - 2022'/* ,
@@ -33,8 +33,8 @@ const ExperienceSection = () => {
     },
     {
       title: 'Full Stack Developer',
-      company: 'Casey’s General Store',
-      location: 'Ankeny, IA',
+      company: 'First Databank, Inc. (FDB)',
+      location: 'San Francisco, CA',
       period: 'Jan 2020 - Feb 2021'/* ,
       description: 'Designed and implemented backend services for retail applications. Focused on data processing and integration with existing systems.',
       location: 'New York, NY',
@@ -47,14 +47,14 @@ const ExperienceSection = () => {
       ] */
     },
     {
-      title: 'Python Software Engineer',
-      company: 'Equinix',
-      location: 'Frisco, TX',
+      title: 'Full Stack Developer',
+      company: 'Casey’s General Store',
+      location: 'Ankeny, IA',
       period: 'July 2018 - Jan 2020'},
 
     {
       title: 'Software Developer Intern',
-      company: 'Gigstar ',
+      company: 'Gigstart',
       location: 'Delhi, IN',
       period: 'June 2017 - July 2018'}
   ];
