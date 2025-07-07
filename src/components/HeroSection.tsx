@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Button } from '@/components/ui/button';
-import { Linkedin, Newspaper , Mail, Download } from 'lucide-react';
+import { Linkedin,Github, Newspaper , Mail, Download } from 'lucide-react';
 
 const HeroSection = () => {
   return (
@@ -49,6 +49,14 @@ const HeroSection = () => {
                   rel="noopener noreferrer"
                 >
                   <Linkedin className="w-6 h-6" />
+                </a>
+                <a
+                  href="https://github.com/vamshidharr"
+                  className="text-muted-foreground hover:text-portfolio-accent transition-colors duration-300"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                <Github className="w-6 h-6" />
                 </a>
                 <a
                   href="mailto:vamshidharr2457@gmail.com"
