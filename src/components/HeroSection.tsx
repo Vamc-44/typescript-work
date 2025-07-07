@@ -42,14 +42,14 @@ const HeroSection = () => {
               </div>
               
               <div className="flex space-x-4">
-                <a
+                {/*<a
                   href="https://www.linkedin.com/in/vamshidhar44"
                   className="text-muted-foreground hover:text-portfolio-accent transition-colors duration-300"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <Linkedin className="w-6 h-6" />
-                </a>
+                 <Linkedin className="w-6 h-6" />
+                </a>*/}
                 <a
                   href="https://github.com/vamshidharr"
                   className="text-muted-foreground hover:text-portfolio-accent transition-colors duration-300"
